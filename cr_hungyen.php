@@ -34,7 +34,7 @@ $d2=$d1->innertext();
 
 
 
-$qr= "INSERT INTO HungYen (Temperature, Humid, Wind, Description )
+$qr= "INSERT INTO hungyens (TemperatureHY, HumidHY, WindHY, DescriptionHY )
     VALUES ('$t2','$h2','$w2','$d2')";
 
 

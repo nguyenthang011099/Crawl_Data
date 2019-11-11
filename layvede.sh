@@ -1,13 +1,15 @@
 #!/bin/bash
-cd  "/home/thang/PHP/Simple_Dom/"
-php cr_bacgiang.php
-php cr_bacninh.php
-php cr_haiduong.php
-php cr_hanoi.php
-php cr_hoabinh.php
-php cr_hungyen.php
-php cr_phutho.php
-php cr_vinhphuc.php
+LOGFILE="kttv.log"
+
+cd  "/home/thangnm/php/"
+php cr_bacgiang.php  >> $LOGFILE
+php cr_bacninh.php   >> $LOGFILE
+php cr_haiduong.php  >> $LOGFILE
+php cr_hanoi.php  >> $LOGFILE
+php cr_hoabinh.php  >> $LOGFILE
+php cr_hungyen.php  >> $LOGFILE
+php cr_phutho.php  >> $LOGFILE
+php cr_vinhphuc.php >> $LOGFILE
 
 
-echo $(date): Done >> kttv.log
+echo $(date): Done >> $LOGFILE

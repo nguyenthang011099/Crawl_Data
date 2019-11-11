@@ -32,7 +32,7 @@ $d1=$d->find('div.b-forecast__text-limit',0);
 $d2=$d1->innertext();
 
 
-$qr= "INSERT INTO HaNoi (Temperature, Humid, Wind, Description )
+$qr= "INSERT INTO hanois (TemperatureHN, HumidHN, WindHN, DescriptionHN )
     VALUES ('$t2','$h2','$w2','$d2')";
 
 

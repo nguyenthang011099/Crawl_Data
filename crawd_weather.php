@@ -2,10 +2,6 @@
 
 include("simple_html_dom.php");
 require_once "dbCon.php";
-//if (isset($argc)) {
-//    for ($i = 2; $i < $argc; $i++) {
-//        echo "Get content successfully in "  . $argv[$i] . "\n";
-//
 
    $html=file_get_html("http://www.nchmf.gov.vn/web/vi-VN/62/19/58/map/Default.aspx");
 

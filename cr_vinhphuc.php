@@ -33,7 +33,7 @@ $d2=$d1->innertext();
 
 
 
-$qr= "INSERT INTO VinhPhuc (Temperature, Humid, Wind, Description )
+$qr= "INSERT INTO vinhphucs (TemperatureVP, HumidVP, WindVP, DescriptionVP )
     VALUES ('$t2','$h2','$w2','$d2')";
 
 

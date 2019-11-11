@@ -33,7 +33,7 @@ $d1=$d->find('div.b-forecast__text-limit',0);
 $d2=$d1->innertext();
 
 
-$qr= "INSERT INTO HaiDuong (Temperature, Humid, Wind, Description )
+$qr= "INSERT INTO haiduongs (TemperatureHD, HumidHD, WindHD, DescriptionHD )
     VALUES ('$t2','$h2','$w2','$d2')";
 
 
