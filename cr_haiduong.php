@@ -37,10 +37,6 @@ $qr= "INSERT INTO haiduongs (TemperatureHD, HumidHD, WindHD, DescriptionHD )
     VALUES ('$t2','$h2','$w2','$d2')";
 
 
-if ($conn->query($qr) === TRUE) {
-    echo "New record created successfully"."\n";
-} else {
-    echo "Error: " . $qr . "<br>" . $conn->error;
-}
+
 
 $conn->close();
